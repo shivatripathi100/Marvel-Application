@@ -1,0 +1,10 @@
+*{
+  margin: 0 !important;
+}
+body{
+  background-image: url(./MarvelBackgroundimg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}

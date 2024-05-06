@@ -1,4 +1,5 @@
-Marvel Comic Website
+Marvel Comic Website:
+
 Introduction
 This project aims to create a web application that facilitates easy browsing of Marvel Comics. Users can navigate through a list of comics, filter characters, and search for specific comic titles. The application is built using ReactJS and utilizes the Marvel Comics API to fetch data.
 

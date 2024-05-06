@@ -1,8 +1,31 @@
-# React + Vite
+Marvel Comic Website
+Introduction
+This project aims to create a web application that facilitates easy browsing of Marvel Comics. Users can navigate through a list of comics, filter characters, and search for specific comic titles. The application is built using ReactJS and utilizes the Marvel Comics API to fetch data.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+List of Comics with Pagination
+Displays a paginated list of comics, loading 20 comics at a time.
+Users can navigate through different pages to explore more comics.
+Comic Character Carousel with Filtering
+Implements a carousel showcasing comic characters.
+Enables users to search for comics by characters.
 
-Currently, two official plugins are available:
+API
+The project utilizes the Marvel Comics API for fetching data. Developers need to generate their API key and follow the authorization process specified in the documentation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+API Documentation: Marvel Comics API Documentation
+
+ReactJS: Used as the main framework for building the web application.
+React Query: Employed for fetching data from the Marvel Comics API.
+
+Running the React Application
+
+1.Clone the Repository:
+git clone <repository-url>
+2.Navigate to Project Directory:
+cd marvel-comic-website
+3.Start the Development Server:
+npm start
+4.This command will start the development server and automatically open the Marvel Comic Website in your default web browser.
+Access the Application:
+If the browser doesn't open automatically, you can manually visit http://localhost:3000 in your web browser to access the Marvel Comic Website.
